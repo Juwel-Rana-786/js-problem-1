@@ -7,7 +7,7 @@ let totalDays = 0;
 
 
 
-let feb = (year % 4 == 0) ? 29 : 28;
+let feb = ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) ? 29 : 28;
 
 
 switch (month) {
