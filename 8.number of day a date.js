@@ -1,13 +1,13 @@
 let year = 2001
 let day = 13
-let month = 2
+let month = 3
 let totalDays = 0;
 
 
 
 
 
-let feb = (year % 4 == 0) ? 29 : 28;
+let feb = ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0) ? 29 : 28;
 
 
 switch (month) {

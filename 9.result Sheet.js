@@ -25,8 +25,10 @@ else if (result >= 70 && result < 80) {
     console.log('Your great is A');
 }
 else if (result >= 80 && result <= 100) {
-    console.log('Your great is A');
+    console.log('Your great is A+');
 }
 else {
     console.log("Enter valid Number")
 }
+
+
