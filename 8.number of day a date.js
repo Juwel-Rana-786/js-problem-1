@@ -7,7 +7,11 @@ let totalDays = 0;
 
 
 
+<<<<<<< HEAD
 let feb = ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0) ? 29 : 28;
+=======
+let feb = ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) ? 29 : 28;
+>>>>>>> de38802fdc72133d1c5b8a8bf6633c979f27c0fd
 
 
 switch (month) {
